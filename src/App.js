@@ -8,11 +8,12 @@ import AdvancedSearchPage from './pages/AdvancedSearchPage.js';
 function App() {
   return (
     <Router>
-      <SearchBar />
+      {/* <SearchBar /> */}
+      <AdvancedSearchPage></AdvancedSearchPage>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/item/:id" element={<ItemPage />} />
-        <Route path="/advanced-search" element={<AdvancedSearchPage />} />
+        {/* <Route path="/advanced-search" element={<AdvancedSearchPage />} /> */}
       </Routes>
     </Router>
   );

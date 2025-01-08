@@ -16,7 +16,7 @@ function ItemPage() {
   return (
     <div>
       <h1>{item.title}</h1>
-      <img src={item.primaryImage} alt={item.title} />
+      <img src={item.primaryImageSmall} alt={item.title} />
       <p>Artist: {item.artistDisplayName}</p>
       <p>Period: {item.period}</p>
       <p>Department: {item.department}</p>

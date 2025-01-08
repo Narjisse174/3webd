@@ -8,7 +8,7 @@ function SearchBar() {
   const handleSearch = (e) => {
     e.preventDefault();
     if (query.trim()) {
-      navigate(`/search?query=${query}`);
+      navigate(`/advanced-search?q=${query}`);
     }
   };
 
